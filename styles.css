@@ -1,5 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
 .navbar {
-  background-color: #ffcd6e;
+  background-color: #fbd394;
   color: #422308;
   font-size: 20px;
   font-weight: 700;
@@ -8,10 +15,32 @@
 .navbar img {
   margin-left: 10%;
   margin-right: 5%;
-  width: 150px;
+  width: 200px;
   height: 125px;
 }
 
 .nav-item {
   margin: 15px;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 70px;
+  left: 45px;
+  padding: 20px;
+  max-width: 500px;
+  color: #fbd394;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.carousel-text h5 {
+  margin-bottom: 30px;
+  color: white;
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 400px;
 }
