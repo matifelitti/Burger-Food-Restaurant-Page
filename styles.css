@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #ffcd6e;
+  color: #422308;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar img {
+  margin-left: 10%;
+  margin-right: 5%;
+  width: 150px;
+  height: 125px;
+}
+
+.nav-item {
+  margin: 15px;
+}
