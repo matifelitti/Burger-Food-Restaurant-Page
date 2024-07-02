@@ -53,6 +53,7 @@
   background-color: #d09e55;
   color: #422308;
   border: 5px solid #fbd394;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .card img {
@@ -74,4 +75,13 @@
 
 .btn-order:hover {
   background-color: #6d390c;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#coupons {
+  background-color: #d09e55;
+  border: 5px solid #fbd394;
+  color: #422308;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
