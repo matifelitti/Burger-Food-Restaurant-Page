@@ -4,10 +4,10 @@ This is a website project for a Burger Food Restaurant. The page is developed us
 
 ## Features
 
-- ## Menu
-- ## Coupons
-- ## Delivery
-- ## Contact
+- Menu
+- Coupons
+- Delivery
+- Contact
 
 ## Usage
 
