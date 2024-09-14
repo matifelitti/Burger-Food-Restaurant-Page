@@ -11,7 +11,7 @@
 .navbar {
   background-color: #fbd394;
   color: #422308;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -23,23 +23,23 @@
 }
 
 .nav-item {
-  margin: 15px;
+  margin: 0.9rem;
 }
 
 .carousel-text {
   position: absolute;
   top: 30px;
   left: 45px;
-  padding: 20px;
+  padding: 1.25rem;
   max-width: 500px;
   color: #fbd394;
-  font-size: 30px;
+  font-size: 1.9rem;
   letter-spacing: 2px;
 }
 .carousel-text h5 {
-  margin-bottom: 30px;
+  margin-bottom: 1.9rem;
   color: white;
-  font-size: 48px;
+  font-size: 3rem;
   letter-spacing: 3px;
 }
 
@@ -50,7 +50,7 @@
 
 .col .card {
   align-items: center;
-  font-size: 25px;
+  font-size: 1.5rem;
   background-color: #d09e55;
   color: #422308;
   border: 5px solid #fbd394;
@@ -65,12 +65,12 @@
 }
 
 .btn-order {
-  padding: 5px;
-  margin: 10px;
-  margin-bottom: 15px;
+  padding: 0.3rem;
+  margin: 0.6rem;
+  margin-bottom: 0.9rem;
   background-color: #422308;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   border: none;
 }
 
@@ -90,16 +90,16 @@
 .footer-style {
   height: 450px;
   background-color: #fbd394;
-  padding: 30px 0;
+  padding: 1.9rem 0;
 }
 
 #input-subscribe {
-  margin-left: 70px;
+  margin-left: 4.3rem;
   max-width: 400px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
   border: 3px solid #422308;
-  padding: 10px;
+  padding: 0.6rem;
 }
 
 #icons-socials {
