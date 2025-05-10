@@ -1,4 +1,3 @@
-
 # 🍔 Burger Food Restaurant Website
 
 A fully responsive and visually appealing **restaurant website** for a burger joint, built with **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. The site is designed to showcase menu offerings, promotions, and contact options in a clean and user-friendly layout.
@@ -26,12 +25,21 @@ This project is a front-end website template for a burger restaurant. It feature
 ## 📂 Project Structure
 
 ```
-burger-restaurant/
+BURGER FOOD RESTAURANT PAGE/
+├── burger-big-image.jpg
+├── coupon.jpeg
+├── delivery.jpg
+├── h1.jpeg
+├── h2.jpeg
+├── h3.jpeg
+├── h4.jpeg
+├── h5.jpeg
+├── h6.jpeg
 ├── home.html         # Main landing page
-├── style.css         # Custom styles
-├── script.js         # JavaScript for interactivity
-├── assets/           # Images and media files
+├── logo.jiff         # logo
 └── README.md         # Project documentation
+├── script.js         # JavaScript for interactivity
+├── style.css         # Custom styles
 ```
 
 ## ▶️ Getting Started
@@ -39,8 +47,9 @@ burger-restaurant/
 To run the website locally:
 
 1. **Clone the repository**:
+
    ```bash
-   git clone https://github.com/matifelitti/burger-food-restaurant.git
+   git clone https://github.com/matifelitti/Burger-Food-Restaurant-Page.git
    ```
 
 2. **Open the project**:
