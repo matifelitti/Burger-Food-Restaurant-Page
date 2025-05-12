@@ -25,3 +25,25 @@ deliveryLink.addEventListener("click", () => {
 contactLink.addEventListener("click", () => {
   contactContainer.scrollIntoView({ behavior: "smooth" });
 });
+
+bottomLinks = document.querySelector(".bottomLinks");
+const year = new Date().getFullYear();
+bottomLinks.innerHTML = `© ${year} Burger's. All Rights Reserved`;
+
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  {
+    threshold: 0.1,
+  }
+);
+
+document.querySelectorAll(".scroll-fade").forEach((el) => {
+  observer.observe(el);
+});
